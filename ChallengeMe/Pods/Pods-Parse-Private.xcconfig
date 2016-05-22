@@ -1,0 +1,6 @@
+#include "Pods-Parse.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Parse" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Bolts" "${PODS_ROOT}/Headers/FBSDKCoreKit" "${PODS_ROOT}/Headers/FBSDKShareKit" "${PODS_ROOT}/Headers/FBSDKShareKit/FBSDKShareKit" "${PODS_ROOT}/Headers/Parse" "${PODS_ROOT}/Headers/ParseUI"
+LIBRARY_SEARCH_PATHS = ${PODS_PARSE_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC ${PODS_PARSE_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
